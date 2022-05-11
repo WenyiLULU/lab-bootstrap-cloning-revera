@@ -1,0 +1,80 @@
+a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+#site-title {
+    width: 30%;
+}
+.nav-links{
+    
+    padding-right: 10%;
+    width: 60%;
+}
+.nav-links ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-links li{
+    list-style: none;
+}
+.nav-links a:hover{
+    color: #ed564b
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@media screen and (min-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
+
+#icons{
+    height: 316px;
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+
+#content{
+    height: 1129px;
+    padding: 20px;
+}
+#content > div{
+    margin: 40px auto;
+}
+.card a{
+    color: #ed564b
+}
+.card a:hover{
+    color:black;
+}
+.card p{
+    font-size: 14px;
+}
+
+#bottom{
+    height: 351px;
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}
+#footer{
+    height: 78px;
+    padding: 10px 0px;
+    background: #292929;
+    font-size: 12px;
+}
